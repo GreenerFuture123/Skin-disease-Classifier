@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Editor
+.vscode/
+
+# Data: keep only the split file
+data/*
+!data/splits.csv
+
+# Trained model weights
+*.pt
+
+# Figures: keep only the confusion matrix
+figures/*
+!figures/test_confusion_matrix.png
