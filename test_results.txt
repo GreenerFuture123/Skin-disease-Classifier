@@ -1,0 +1,57 @@
+Split: test | images: 204 | unique photos: 106
+
+=== Seed 42 ===
+              precision    recall  f1-score   support
+
+  Chickenpox      0.643     0.621     0.632        29
+     Measles      0.750     0.960     0.842        25
+   Monkeypox      0.909     0.769     0.833        78
+      Normal      0.923     1.000     0.960        72
+
+    accuracy                          0.853       204
+   macro avg      0.806     0.837     0.817       204
+weighted avg      0.857     0.853     0.850       204
+
+[[18  2  6  3]
+ [ 0 24  0  1]
+ [10  6 60  2]
+ [ 0  0  0 72]]
+
+=== Seed 1 ===
+              precision    recall  f1-score   support
+
+  Chickenpox      0.722     0.897     0.800        29
+     Measles      0.857     0.960     0.906        25
+   Monkeypox      1.000     0.808     0.894        78
+      Normal      0.922     0.986     0.953        72
+
+    accuracy                          0.902       204
+   macro avg      0.875     0.913     0.888       204
+weighted avg      0.916     0.902     0.903       204
+
+[[26  0  0  3]
+ [ 0 24  0  1]
+ [10  3 63  2]
+ [ 0  1  0 71]]
+
+=== Seed 2 ===
+              precision    recall  f1-score   support
+
+  Chickenpox      0.677     0.724     0.700        29
+     Measles      0.750     0.960     0.842        25
+   Monkeypox      0.938     0.769     0.845        78
+      Normal      0.922     0.986     0.953        72
+
+    accuracy                          0.863       204
+   macro avg      0.822     0.860     0.835       204
+weighted avg      0.872     0.863     0.862       204
+
+[[21  1  4  3]
+ [ 0 24  0  1]
+ [10  6 60  2]
+ [ 0  1  0 71]]
+
+=== Summary ===
+Accuracy: 0.873 +/- 0.026
+Macro-F1 (images): 0.847 +/- 0.037
+Macro-F1 (unique photos): 0.836 +/- 0.034
